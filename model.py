@@ -5,7 +5,7 @@ import os
 
 models = {}
 
-HF_REPO = "almer1426/pneumonia-models"
+HF_REPO = "almer1426/comvis26-project-model"
 
 def load_models():
     for name in ["densenet121_best.keras", "vgg16_best.keras"]:
